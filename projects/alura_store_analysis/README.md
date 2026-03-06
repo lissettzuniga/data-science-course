@@ -6,13 +6,13 @@ In this project, we analyze sales data from the four stores of the **Alura Store
 
 The goal of this analysis is to identify the **least efficient store** based on different performance indicators such as revenue, product categories, customer reviews, and shipping costs.
 
-The final result of the project is a **data-driven recommendation** indicating which store should be sold.
+The final result of this project is a **data-driven recommendation** indicating which store should be sold.
 
 ---
 
 ## Objectives
 
-The analysis focuses on the following questions:
+The analysis focuses on answering the following questions:
 
 1. Which store generates the highest and lowest revenue?
 2. What are the most sold product categories?
@@ -20,7 +20,7 @@ The analysis focuses on the following questions:
 4. Which products are the most and least sold?
 5. What is the average shipping cost per store?
 
-Based on these metrics, we determine which store performs the worst overall.
+These metrics help determine which store performs worse overall.
 
 ---
 
@@ -35,7 +35,7 @@ Based on these metrics, we determine which store performs the worst overall.
 
 ## Dataset
 
-The dataset consists of sales records from four stores of Alura Store.
+The dataset consists of sales records from four different stores of Alura Store.
 
 Each dataset contains information such as:
 
@@ -48,6 +48,8 @@ Each dataset contains information such as:
 - Store location
 - Customer rating
 - Payment method
+- Installments
+- Geographic coordinates
 
 The data was imported directly from CSV files hosted on GitHub.
 
@@ -57,39 +59,47 @@ The data was imported directly from CSV files hosted on GitHub.
 
 The analysis includes:
 
-- Revenue calculation for each store
-- Sales by product category
-- Average store rating
-- Most and least sold products
+- Total revenue calculation for each store
+- Sales distribution by product category
+- Average customer ratings per store
+- Identification of the most and least sold products
 - Average shipping cost per store
 
 ---
 
 ## Data Visualization
 
-At least **three different types of visualizations** are used to support the analysis:
+To better understand the patterns found in the analysis, several visualizations were created, including:
 
-- Bar charts
-- Pie charts
-- Distribution charts
+- **Bar charts** for revenue comparison
+- **Pie charts** for product category distribution
+- **Additional charts** to highlight relevant insights
 
-These visualizations help identify patterns in the data and make the results easier to interpret.
+These visualizations help present the results clearly and support the final recommendation.
+
+---
+
+## Key Insights
+
+Some of the main findings from the analysis include:
+
+- Store 1 generates the highest total revenue.
+- Store 4 presents the lowest overall revenue among the four stores.
+- Customer ratings are relatively similar across stores, indicating generally positive customer satisfaction.
+- Certain product categories dominate sales across all stores.
+- Shipping costs vary between stores and may influence customer purchasing decisions.
 
 ---
 
 ## Final Recommendation
 
-After analyzing all the metrics, a recommendation is made about **which store Mr. Juan should sell**.
+After analyzing all performance indicators, **Store 4 shows the weakest performance compared to the other stores**.
 
-The recommendation is based on:
+It presents the lowest revenue and weaker sales performance relative to the other locations.
 
-- Lower revenue performance
-- Lower customer ratings
-- Higher shipping costs
-- Lower product sales performance
-
-The final conclusion is presented in the notebook along with the supporting data.
+Therefore, it is recommended that **Mr. Juan sell Store 4** and focus resources on the stores that demonstrate stronger financial performance and sales potential.
 
 ---
 
 ## Project Structure
+
