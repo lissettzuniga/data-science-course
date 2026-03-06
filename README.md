@@ -1,17 +1,17 @@
-# Data Science Course – Alura Latam 📊🐍
+# Data Science Course – Alura Latam 
 
 This repository contains exercises and notebooks developed during the **Data Science course by Alura Latam**.  
 The main goal of this repository is to document my learning process in **Python** and **Data Science**.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To build a strong foundation in Python and develop practical skills in **Data Science**, keeping an organized record of exercises and projects completed during the course.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 data-science-course/
