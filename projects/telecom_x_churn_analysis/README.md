@@ -101,4 +101,4 @@ Future improvements for this project could include:
 ## Author
 
 Lissett Zúñiga Reyes  
-Computer Engineering Student | Data Science Learner
+Computer Engineering | Data Science Learner
